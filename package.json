@@ -1,0 +1,25 @@
+{
+  "name": "haidict",
+  "description": "a cmd-line dictionary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "haidic": "bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haigeno1/haidic.git"
+  },
+  "keywords": [
+    "dictionary"
+  ],
+  "author": "haigeno1",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.19.0"
+  }
+}
